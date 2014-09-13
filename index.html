@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, user-scalable=no">
-		<title>Disaster Map</title>
+		<title>Sea Level Map</title>
 	</head>
 	<body>
 		<div id="mapdiv"></div>
@@ -16,7 +16,7 @@
 		var kmllayer = new OpenLayers.Layer.Vector("KML", {
 				strategies: [new OpenLayers.Strategy.Fixed()],
 				protocol: new OpenLayers.Protocol.HTTP({
-					url: "./drone/2013-07-25 19-54-04.tlog.kml",
+					url: "./contours/contours.kml",
 					format: new OpenLayers.Format.KML({
 						extractStyles: true, 
 						extractAttributes: true,
@@ -35,7 +35,7 @@
 								new OpenLayers.Projection("EPSG:4326"), //transform from WGS 1984
 								map.getProjectionObject() //to Spherical Mercator Projection
 				);
-			map.setCenter(lonLat, 15 // Zoom level - Not too far in, or the user may not see what's going on.
+			map.setCenter(lonLat, 8 // Zoom level - Not too far in, or the user may not see what's going on.
 			);
 		});	
 	 
