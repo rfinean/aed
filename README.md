@@ -1,8 +1,6 @@
-Disaster Map
-============
+Sea Level Map
+=============
 
-An overlay to a map for collecting features of interest to other people and disaster relief organisations during a disaster event
+A map to show areas that will become flooded by rising sea levels during the 21st century by the effects of climate change. Using [altitude data collected by NASA on their Space Shuttle](http://en.wikipedia.org/wiki/SRTM) transformed to contours plotted on [OpenStreetMap](http://leafletjs.com/) using [SRTM2OSM](http://wiki.openstreetmap.org/wiki/Srtm2Osm) and [other OSM tools](http://wiki.openstreetmap.org/wiki/Relief_maps) using [elevation](http://wiki.openstreetmap.org/wiki/Key:ele) data.
 
-Created for the [#hack4good 0.5 geekli.st Hackathon](https://geekli.st/hackathon/52c49d837689332d5f000019/idea/52f30ce32371f62800af803e)
-
-We're using [OpenStreetMap](/Leaflet/Leaflet) because an [appliance like this](https://geekli.st/hackathon/52c49d837689332d5f000019/idea/52e3e85e5df61b4500000013) could prove very resilient in a disaster zone.
+Created by Derek & Rob for the [#hack4good 0.6 geekli.st Hackathon](https://geekli.st/hackathon/hack4good-06/project/5414211411aa1b810bacc7d6)
