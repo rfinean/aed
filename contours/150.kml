@@ -4,9 +4,19 @@
 		<Placemark>
 			<styleUrl>#poly-000000-1-76</styleUrl>
 			<Polygon>
+				<extrude>1</extrude>
 				<outerBoundaryIs>
 					<LinearRing>
-						<tessellate>1</tessellate>
+						<coordinates>
+							-180,90,0.0 
+							180,90,0.0 
+							180,-90,0.0 
+							-180,-90,0.0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+				<innerBoundaryIs>
+					<LinearRing>
 						<coordinates>
 							-1.7578125000000002,53.014783200000004,0.0 
 							-3.2080078000000003,52.9883373,0.0 
@@ -17,16 +27,16 @@
 							-1.7578125000000002,53.014783200000004,0.0
 						</coordinates>
 					</LinearRing>
-				</outerBoundaryIs>
+				</innerBoundaryIs>
 			</Polygon>
 		</Placemark>
 		<Style id='poly-000000-1-76'>
 			<LineStyle>
-				<color>ff000000</color>
+				<color>ff0000ff</color>
 				<width>1</width>
 			</LineStyle>
 			<PolyStyle>
-				<color>4C000000</color>
+				<color>4C0000ff</color>
 				<fill>1</fill>
 				<outline>1</outline>
 			</PolyStyle>

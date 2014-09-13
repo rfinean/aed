@@ -9,7 +9,6 @@
 		<script src="//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 		<script src='//harrywood.co.uk/maps/examples/leaflet/leaflet-plugins/layer/vector/KML.js'></script>
 		<script>
-		//	Create the map
 		var map = L.map('map').setView([50.0, 10.0], 5).locate({setView: true, maxZoom:9});
 
 		L.tileLayer('http://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
@@ -19,15 +18,17 @@
 		}).addTo(map);
 		map.attributionControl.setPrefix(''); // remove 'Powered by Leaflet'
 
-		var c30m = new L.KML('./contours/30.kml', {async: true}),
-			c20m = new L.KML('./contours/20.kml', {async: true}),
-			c10m = new L.KML('./contours/10.kml', {async: true}),
+		var //c500 = new L.KML('./contours/sep-poly.kml', {async: true}),
+			c150 = new L.KML('./contours/150.kml', {async: true}),
+			c100 = new L.KML('./contours/100.kml', {async: true}),
+			c050 = new L.KML('./contours/050.kml', {async: true}),
 			nothing = L.popup();
 
 		var contours = {
-			"30m": c30m,
-			"20m": c20m,
-			"10m": c10m,
+			//"5.0m": c500,
+			"1.5m": c150,
+			"1.0m": c100,
+			"0.5m": c050,
 			"0m": nothing
 		};
 
