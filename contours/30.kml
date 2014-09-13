@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<Placemark>
+			<styleUrl>#poly-000000-1-76</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-1.7578125000000002,53.014783200000004,0.0 
+							-3.2080078000000003,52.9883373,0.0 
+							-3.1640625,52.37559920000001,0.0 
+							-1.8457031,51.835777500000006,0.0 
+							-0.48339840000000006,51.9171676,0.0 
+							-0.5712891,52.72298549999999,0.0 
+							-1.7578125000000002,53.014783200000004,0.0
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Style id='poly-000000-1-76'>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C000000</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+	</Document>
+</kml>

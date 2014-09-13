@@ -1,70 +1,37 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 		<title>Sea Level Map</title>
 	</head>
 	<body>
-		<div id="mapdiv"></div>
-		<script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+		<div id="map" style="height: 100%"></div>
+		<script src="//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+		<script src='//harrywood.co.uk/maps/examples/leaflet/leaflet-plugins/layer/vector/KML.js'></script>
 		<script>
 		//	Create the map
-		map = new OpenLayers.Map("mapdiv");
-			
-		map.addLayer(new OpenLayers.Layer.OSM());
-			
-		//	Load up the latest version of the KML file
-		var kmllayer = new OpenLayers.Layer.Vector("KML", {
-				strategies: [new OpenLayers.Strategy.Fixed()],
-				protocol: new OpenLayers.Protocol.HTTP({
-					url: "./contours/contours.kml",
-					format: new OpenLayers.Format.KML({
-						extractStyles: true, 
-						extractAttributes: true,
-						maxDepth: 2
-					})
-				})
-			});		
-		
-		//	Add the KML to the map
-		map.addLayer(kmllayer);
-		
-		//Set start centrepoint from device's location and zoom
-		navigator.geolocation.getCurrentPosition(function(position) {			 
-			var lonLat = new OpenLayers.LonLat(position.coords.longitude,position.coords.latitude)
-				.transform(
-								new OpenLayers.Projection("EPSG:4326"), //transform from WGS 1984
-								map.getProjectionObject() //to Spherical Mercator Projection
-				);
-			map.setCenter(lonLat, 8 // Zoom level - Not too far in, or the user may not see what's going on.
-			);
-		});	
-	 
-		//Add a selector control to the kmllayer with popup functions
-		var controls = {
-			selector: new OpenLayers.Control.SelectFeature(kmllayer, { onSelect: createPopup, onUnselect: destroyPopup })
+		var map = L.map('map').setView([50.0, 10.0], 5).locate({setView: true, maxZoom:9});
+
+		L.tileLayer('http://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="http://openstreetmap.org/">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>. Imagery &copy; <a href="http://mapbox.com/">Mapbox</a>',
+			id: 'examples.map-i86knfo3',
+		    maxZoom: 18
+		}).addTo(map);
+		map.attributionControl.setPrefix(''); // remove 'Powered by Leaflet'
+
+		var c30m = new L.KML('./contours/30.kml', {async: true}),
+			c20m = new L.KML('./contours/20.kml', {async: true}),
+			c10m = new L.KML('./contours/10.kml', {async: true}),
+			nothing = L.popup();
+
+		var contours = {
+			"30m": c30m,
+			"20m": c20m,
+			"10m": c10m,
+			"0m": nothing
 		};
 
-		function createPopup(feature) {
-			feature.popup = new OpenLayers.Popup.FramedCloud("pop",
-				feature.geometry.getBounds().getCenterLonLat(),
-				null,
-				'<div class="markerContent"><h1>'+feature.attributes.description+'</h1></div>',
-				null,
-				true,
-				function() { controls['selector'].unselectAll(); }
-			);
-			//feature.popup.closeOnMove = true;
-			map.addPopup(feature.popup);
-		}
-
-		function destroyPopup(feature) {
-			feature.popup.destroy();
-			feature.popup = null;
-		}
-		
-		map.addControl(controls['selector']);
-		controls['selector'].activate();
-		
+		L.control.layers(contours).addTo(map);
 		</script>
 	</body>
 </html>

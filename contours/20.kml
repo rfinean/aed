@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Contours</name>
+		<Placemark>
+			<styleUrl>#poly-000000-1-76</styleUrl>
+			<name>20m</name>
+			<ExtendedData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-4.21875,57.1600783,0.0 -5.0097656,57.68066,0.0 -4.1748047,55.1537663,0.0 -2.7685547000000006,55.0532026,0.0 -2.4169922,53.357108700000005,0.0 -3.6474608999999996,53.1204053,0.0 -3.6474608999999996,52.1874047,0.0 -2.3730469,51.835777500000006,0.0 -2.1972656,51.0137547,0.0 -0.13183590000000003,51.56341230000001,0.0 0.17578129999999997,52.643063399999996,0.0 -1.5820312000000003,53.278353,0.0 -1.1425781,54.0335863,0.0 -2.6806641,55.4788535,0.0 -4.0869141,56.31653669999999,0.0 -2.8564453,57.2077101,0.0 -4.21875,57.1600783,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Style id='poly-000000-1-76'>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C000000</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+	</Document>
+</kml>
