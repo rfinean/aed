@@ -47,7 +47,12 @@
 				new L.KML('./contours/kml-1.5/N51E002.kml', {async: true}),
 				new L.KML('./contours/kml-1.5/N51E003.kml', {async: true}),
 				new L.KML('./contours/kml-1.5/N51E004.kml', {async: true}),
-				new L.KML('./contours/kml-1.5/N51E005.kml', {async: true})
+				new L.KML('./contours/kml-1.5/N51E005.kml', {async: true}),
+
+				new L.KML('./contours/kml-1.5/N52E001.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N52E004.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N52E005.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N52E006.kml', {async: true})
 			]).setStyle(seaStyle),
 			c050 = L.featureGroup([
 				new L.KML('./contours/kml-0.5/N50W006.kml', {async: true}),
@@ -72,13 +77,18 @@
 				new L.KML('./contours/kml-0.5/N51E002.kml', {async: true}),
 				new L.KML('./contours/kml-0.5/N51E003.kml', {async: true}),
 				new L.KML('./contours/kml-0.5/N51E004.kml', {async: true}),
-				new L.KML('./contours/kml-0.5/N51E005.kml', {async: true})
+				new L.KML('./contours/kml-0.5/N51E005.kml', {async: true}),
+
+				new L.KML('./contours/kml-0.5/N52E001.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N52E004.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N52E005.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N52E006.kml', {async: true})
 			]).setStyle(seaStyle),
 			nothing = L.popup();
 
 		var contours = {
-			"1.5m = possible by 2100": c150,
-			"0.5m = inevitable 2100": c050,
+			"1.5m = possible in 2100": c150,
+			"0.5m = inevitable by 2100": c050,
 			"0.0m = today": nothing
 		};
 
