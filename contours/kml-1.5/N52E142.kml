@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<Placemark>
+			<styleUrl>#poly-000000-1-76</styleUrl>
+			<Polygon>
+<innerBoundaryIs> <LinearRing> <coordinates>
+142.0141431,52.9991685,0
+142.0139351,52.9991681,0
+142.0141431,52.9990294,0
+142.0142818,52.9991681,0
+142.0141431,52.9991685,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+142.0216306,52.9926165,0
+142.0214226,52.9925125,0
+142.0216306,52.9923738,0
+142.0217693,52.9925125,0
+142.0216306,52.9926165,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+142.0299501,52.9920965,0
+142.0297421,52.9916805,0
+142.0299501,52.9914725,0
+142.0300887,52.9916805,0
+142.0299501,52.9920965,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+142.0299501,52.9902246,0
+142.0298114,52.9900166,0
+142.0299501,52.9896007,0
+142.0300887,52.9900166,0
+142.0299501,52.9902246,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+142.0532446,52.9776414,0
+142.0530366,52.9775374,0
+142.0532446,52.9773295,0
+142.0534526,52.9775374,0
+142.0532446,52.9776414,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+142.0574043,52.9796173,0
+142.0570923,52.9792013,0
+142.0574043,52.9789517,0
+142.0578203,52.9792013,0
+142.0574043,52.9796173,0
+	</coordinates> </LinearRing> </innerBoundaryIs>
+<extrude>1</extrude>
+<outerBoundaryIs> <LinearRing> <coordinates>
+142.9983361,52.9991685,0
+142.9981974,52.9991681,0
+142.9977121,52.9983361,0
+142.9983361,52.9980241,0
+142.9991681,52.9982321,0
+142.9991685,52.9983361,0
+142.9991681,52.9985441,0
+142.9985441,52.9991681,0
+142.9983361,52.9991685,0
+</coordinates> </LinearRing> </outerBoundaryIs>
+<innerBoundaryIs> <LinearRing> <coordinates>
+			</Polygon>
+		</Placemark>
+		<Style id='poly-000000-1-76'>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C0000ff</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+	</Document>
+</kml>

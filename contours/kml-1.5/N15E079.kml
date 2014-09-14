@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<Placemark>
+			<styleUrl>#poly-000000-1-76</styleUrl>
+			<Polygon>
+<extrude>1</extrude>
+<outerBoundaryIs> <LinearRing> <coordinates>
+79.9950083,15.2077787,0
+79.9948003,15.2071547,0
+79.9948003,15.2063228,0
+79.9950083,15.2059068,0
+79.9952163,15.2063228,0
+79.9952579,15.2071547,0
+79.9950083,15.2077787,0
+</coordinates> </LinearRing> </outerBoundaryIs>
+	<innerBoundaryIs> <LinearRing> <coordinates>
+79.9966722,15.2059068,0
+79.9965336,15.2054908,0
+79.9966722,15.2053869,0
+79.9967554,15.2054908,0
+79.9966722,15.2059068,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+79.9966722,15.2040765,0
+79.9960483,15.203827,0
+79.9966722,15.203411,0
+79.9969842,15.203827,0
+79.9966722,15.2040765,0
+</coordinates> </LinearRing> </innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Style id='poly-000000-1-76'>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C0000ff</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+	</Document>
+</kml>
