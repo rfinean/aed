@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<Placemark>
+			<styleUrl>#poly-000000-1-76</styleUrl>
+			<Polygon>
+<innerBoundaryIs> <LinearRing> <coordinates>
+88.0790349,24.0633812,0
+88.0788894,24.063228,0
+88.0790349,24.0631115,0
+88.0792062,24.063228,0
+88.0790349,24.0633812,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.6381032,24.5591098,0
+88.6380437,24.5590682,0
+88.6381032,24.5590088,0
+88.6381378,24.5590682,0
+88.6381032,24.5591098,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.6389351,24.5574935,0
+88.6388757,24.5574043,0
+88.6389351,24.557335,0
+88.6390486,24.5574043,0
+88.6389351,24.5574935,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.7054908,24.5667291,0
+88.7056508,24.5665557,0
+88.7054908,24.5664171,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.7346922,24.0757903,0
+88.734713,24.0757072,0
+88.734609,24.0756032,0
+88.734513,24.0757072,0
+88.7345198,24.0757963,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.7845258,24.1333961,0
+88.7839249,24.1331115,0
+88.7845258,24.1328269,0
+88.7848262,24.1331115,0
+88.7845258,24.1333961,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.8044925,24.1381626,0
+88.8044463,24.1381032,0
+88.8044925,24.1380437,0
+88.8045618,24.1381032,0
+88.8044925,24.1381626,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.8244592,24.0893154,0
+88.8241621,24.0890183,0
+88.8244592,24.0887212,0
+88.8248752,24.0890183,0
+88.8244592,24.0893154,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.8302829,24.0909133,0
+88.8297629,24.0906822,0
+88.8302829,24.0903851,0
+88.8304908,24.0906822,0
+88.8302829,24.0909133,0
+	</coordinates> </LinearRing> </innerBoundaryIs>
+<extrude>1</extrude>
+<outerBoundaryIs> <LinearRing> <coordinates>
+88.8336106,24.0886023,0
+88.8329867,24.0881864,0
+88.8336106,24.0877964,0
+88.8344426,24.0875327,0
+88.8347694,24.0881864,0
+88.8344426,24.0884042,0
+88.8336106,24.0886023,0
+</coordinates> </LinearRing> </outerBoundaryIs>
+	<innerBoundaryIs> <LinearRing> <coordinates>
+88.8364585,24.0877064,0
+88.8361065,24.0878628,0
+88.8357545,24.0873544,0
+88.8361065,24.0867007,0
+88.8362541,24.0872068,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.8386023,24.0882557,0
+88.8385677,24.0881864,0
+88.8386023,24.0881604,0
+88.8386717,24.0881864,0
+88.8386023,24.0882557,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.8410982,24.0899369,0
+88.8409248,24.0898502,0
+88.8410982,24.0896192,0
+88.8415141,24.0898502,0
+88.8410982,24.0899369,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.844426,24.0820248,0
+88.843932,24.0815308,0
+88.844426,24.0811356,0
+88.8452579,24.081084,0
+88.8456349,24.0815308,0
+88.8452579,24.0822404,0
+88.844426,24.0820248,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.8552413,24.0901738,0
+88.8549766,24.0898502,0
+88.8552413,24.0896683,0
+88.855506,24.0898502,0
+88.8552413,24.0901738,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.8585691,24.0875327,0
+88.8583908,24.0873544,0
+88.8585312,24.0865225,0
+88.8585691,24.0864905,0
+88.8586522,24.0865225,0
+88.8588186,24.0873544,0
+88.8585691,24.0875327,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.859401,24.088632,0
+88.858921,24.0881864,0
+88.859401,24.0876191,0
+88.8602329,24.088117,0
+88.8602561,24.0881864,0
+88.8602329,24.088325,0
+88.859401,24.088632,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.8635607,24.0885503,0
+88.8631448,24.0881864,0
+88.8635607,24.0878628,0
+88.864046,24.0881864,0
+88.8635607,24.0885503,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.8685524,24.0907862,0
+88.8683741,24.0906822,0
+88.8685524,24.0904326,0
+88.8686911,24.0906822,0
+88.8685524,24.0907862,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.8710483,24.0901102,0
+88.8709259,24.0898502,0
+88.8710483,24.0897017,0
+88.8711706,24.0898502,0
+88.8710483,24.0901102,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.8785358,24.0916924,0
+88.8783971,24.0915141,0
+88.8785358,24.0913755,0
+88.8789517,24.0915141,0
+88.8785358,24.0916924,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.8951747,24.1465266,0
+88.8951054,24.1464226,0
+88.8951747,24.1463266,0
+88.8952882,24.1464226,0
+88.8951747,24.1465266,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.9299432,24.1678799,0
+88.9301165,24.1679146,0
+88.9304136,24.1680532,0
+88.930835,24.1688852,0
+88.9301165,24.1693501,0
+88.9296516,24.1688852,0
+88.9299085,24.1682612,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.9309484,24.1314938,0
+88.9308791,24.1314476,0
+88.9309484,24.1313436,0
+88.9311564,24.1314476,0
+88.9309484,24.1314938,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.9334443,24.1300437,0
+88.9331843,24.1297837,0
+88.9334443,24.1295757,0
+88.9339642,24.1297837,0
+88.9334443,24.1300437,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.9733777,24.1368552,0
+88.9728429,24.1364393,0
+88.9733777,24.1360989,0
+88.9737521,24.1364393,0
+88.9733777,24.1368552,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.9742097,24.1373847,0
+88.9740017,24.1372712,0
+88.9742097,24.1370929,0
+88.9743879,24.1372712,0
+88.9742097,24.1373847,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.9875208,24.1377565,0
+88.9870355,24.1372712,0
+88.9875208,24.1369477,0
+88.9876921,24.1372712,0
+88.9875208,24.1377565,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.9925125,24.1416389,0
+88.9923738,24.1414309,0
+88.9925125,24.1412923,0
+88.9926685,24.1414309,0
+88.9925125,24.1416389,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+88.9991681,24.1385191,0
+88.9991086,24.1381032,0
+88.9991681,24.1379992,0
+88.9991685,24.1381032,0
+88.9991681,24.1385191,0
+</coordinates> </LinearRing> </innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Style id='poly-000000-1-76'>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C0000ff</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+	</Document>
+</kml>

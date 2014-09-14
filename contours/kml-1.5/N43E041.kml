@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<Placemark>
+			<styleUrl>#poly-000000-1-76</styleUrl>
+			<Polygon>
+<innerBoundaryIs> <LinearRing> <coordinates>
+41.0099834,43.0014559,0
+41.0093594,43.0008319,0
+41.0099834,43.0008307,0
+41.0103993,43.0008319,0
+41.0099834,43.0014559,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+41.0116473,43.0042984,0
+41.0112313,43.0041597,0
+41.0116473,43.0037438,0
+41.0117859,43.0041597,0
+41.0116473,43.0042984,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+41.0133111,43.0026345,0
+41.0131725,43.0024958,0
+41.0133111,43.0020799,0
+41.0137271,43.0024958,0
+41.0133111,43.0026345,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+41.0224626,43.0009151,0
+41.0223586,43.0008319,0
+41.0224626,43.0008315,0
+41.0226705,43.0008319,0
+41.0224626,43.0009151,0
+	</coordinates> </LinearRing> </innerBoundaryIs>
+<extrude>1</extrude>
+<outerBoundaryIs> <LinearRing> <coordinates>
+41.031614,43.0012479,0
+41.03099,43.0008319,0
+41.031614,43.0008307,0
+41.0324459,43.0008307,0
+41.0327579,43.0008319,0
+41.0332779,43.0015252,0
+41.0336938,43.0016639,0
+41.0332779,43.0018719,0
+41.0324459,43.0018719,0
+41.0322379,43.0016639,0
+41.031614,43.0012479,0
+</coordinates> </LinearRing> </outerBoundaryIs>
+	<innerBoundaryIs> <LinearRing> <coordinates>
+41.0349418,43.0017332,0
+41.0345258,43.0016639,0
+41.0349418,43.0015252,0
+41.0357737,43.0015807,0
+41.0361897,43.0016639,0
+41.0357737,43.0017332,0
+41.0349418,43.0017332,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+41.0407654,43.0042984,0
+41.0405574,43.0041597,0
+41.0407654,43.0039517,0
+41.0415973,43.0040211,0
+41.041736,43.0041597,0
+41.0415973,43.0045757,0
+41.0407654,43.0042984,0
+</coordinates> </LinearRing> </innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Style id='poly-000000-1-76'>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C0000ff</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+	</Document>
+</kml>

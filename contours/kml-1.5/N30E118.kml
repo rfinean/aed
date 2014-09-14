@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<Placemark>
+			<styleUrl>#poly-000000-1-76</styleUrl>
+			<Polygon>
+<extrude>1</extrude>
+<outerBoundaryIs> <LinearRing> <coordinates>
+118.3710483,30.9945923,0
+118.3709963,30.9941764,0
+118.3710483,30.994107,0
+118.3718802,30.9938124,0
+118.3721449,30.9941764,0
+118.3722322,30.9950083,0
+118.3718802,30.9953603,0
+118.3711176,30.9950083,0
+118.3710483,30.9945923,0
+</coordinates> </LinearRing> </outerBoundaryIs>
+	<innerBoundaryIs> <LinearRing> <coordinates>
+118.484193,30.9684692,0
+118.4840544,30.968386,0
+118.484193,30.968282,0
+118.4842762,30.968386,0
+118.484193,30.9684692,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+118.7470882,30.9959651,0
+118.7469099,30.9958403,0
+118.7470882,30.9956843,0
+118.7472268,30.9958403,0
+118.7470882,30.9959651,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+118.7562396,30.9667683,0
+118.7561876,30.9667221,0
+118.7562396,30.9666843,0
+118.7562916,30.9667221,0
+118.7562396,30.9667683,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+118.8069884,30.9279846,0
+118.8065031,30.9276206,0
+118.8069884,30.9273559,0
+118.8075083,30.9267887,0
+118.8078203,30.9265547,0
+118.8081947,30.9267887,0
+118.807855,30.9276206,0
+118.8078203,30.92769,0
+118.8069884,30.9279846,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+118.8169717,30.9276801,0
+118.8169024,30.9276206,0
+118.8169717,30.9275166,0
+118.8170549,30.9276206,0
+118.8169717,30.9276801,0
+</coordinates> </LinearRing> </innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Style id='poly-000000-1-76'>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C0000ff</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+	</Document>
+</kml>

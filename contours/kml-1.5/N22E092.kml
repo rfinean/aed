@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<Placemark>
+			<styleUrl>#poly-000000-1-76</styleUrl>
+			<Polygon>
+<extrude>1</extrude>
+<outerBoundaryIs> <LinearRing> <coordinates>
+92.0008319,22.1681127,0
+92.0008315,22.1680532,0
+92.0008299,22.1672213,0
+92.0008319,22.1667013,0
+92.0011786,22.1672213,0
+92.0009706,22.1680532,0
+92.0008319,22.1681127,0
+</coordinates> </LinearRing> </outerBoundaryIs>
+	<innerBoundaryIs> <LinearRing> <coordinates>
+92.0024958,22.2352329,0
+92.0020799,22.234609,0
+92.0023918,22.233777,0
+92.0024958,22.2335691,0
+92.0029118,22.233777,0
+92.0031198,22.234609,0
+92.0024958,22.2352329,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+92.0033278,22.218074,0
+92.0029118,22.21797,0
+92.0031198,22.2171381,0
+92.0033278,22.2169994,0
+92.0037438,22.2171381,0
+92.0035358,22.21797,0
+92.0033278,22.218074,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+92.0091514,22.233881,0
+92.0087354,22.233777,0
+92.0091514,22.233673,0
+92.0092554,22.233777,0
+92.0091514,22.233881,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+92.0199667,22.1824043,0
+92.0197587,22.1821963,0
+92.0199667,22.1818844,0
+92.0202787,22.1821963,0
+92.0199667,22.1824043,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+92.0274542,22.1000119,0
+92.0270383,22.0998336,0
+92.0274542,22.0992097,0
+92.0277662,22.0998336,0
+92.0274542,22.1000119,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+92.0407654,22.1159006,0
+92.0402454,22.1156406,0
+92.0407654,22.1152246,0
+92.0414587,22.1156406,0
+92.0407654,22.1159006,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+92.047421,22.1383111,0
+92.0471714,22.1381032,0
+92.047421,22.1379249,0
+92.047629,22.1381032,0
+92.047421,22.1383111,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+92.0482529,22.1157793,0
+92.0480449,22.1156406,0
+92.0482529,22.1154326,0
+92.0483916,22.1156406,0
+92.0482529,22.1157793,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+92.0574043,22.1202163,0
+92.0572657,22.1198003,0
+92.0574043,22.1196963,0
+92.057543,22.1198003,0
+92.0574043,22.1202163,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+92.0673877,22.1208403,0
+92.0671797,22.1206323,0
+92.0673877,22.1204243,0
+92.0675957,22.1206323,0
+92.0673877,22.1208403,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+92.0690516,22.1600309,0
+92.0688783,22.1597338,0
+92.0690516,22.1595447,0
+92.0693982,22.1597338,0
+92.0690516,22.1600309,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+92.078203,22.1573419,0
+92.0781337,22.1572379,0
+92.078203,22.1571859,0
+92.0782723,22.1572379,0
+92.078203,22.1573419,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+92.0831947,22.1360233,0
+92.0825707,22.1356073,0
+92.0831947,22.1353993,0
+92.0835067,22.1356073,0
+92.0831947,22.1360233,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+92.093178,22.1276114,0
+92.0927621,22.1272879,0
+92.093178,22.1268026,0
+92.093594,22.1272879,0
+92.093178,22.1276114,0
+</coordinates> </LinearRing> </innerBoundaryIs> <innerBoundaryIs> <LinearRing> <coordinates>
+92.0965058,22.1606697,0
+92.0962978,22.1605657,0
+92.0965058,22.1604825,0
+92.0966445,22.1605657,0
+92.0965058,22.1606697,0
+</coordinates> </LinearRing> </innerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Style id='poly-000000-1-76'>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4C0000ff</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+	</Document>
+</kml>
