@@ -24,42 +24,62 @@
 			fillOpacity: 0.5,
 		};
 
-		var c500 = L.featureGroup([
-				new L.KML('./contours/sep-poly.kml', {async: true}),
-				new L.KML('./contours/sep-poly2.kml', {async: true})
-			]).setStyle(seaStyle),
-			c200 = L.featureGroup([
-				new L.KML('./contours/200/N50W006.kml', {async: true}),
-				new L.KML('./contours/200/N50W005.kml', {async: true}),
-				new L.KML('./contours/200/N50W004.kml', {async: true}),
-				new L.KML('./contours/200/N50W003.kml', {async: true}),
-				new L.KML('./contours/200/N50W002.kml', {async: true}),
-				new L.KML('./contours/200/N50W001.kml', {async: true}),
-				new L.KML('./contours/200/N50E000.kml', {async: true}),
-				new L.KML('./contours/200/N50E001.kml', {async: true}),
-				new L.KML('./contours/200/N50E002.kml', {async: true}),
-				new L.KML('./contours/200/N50E003.kml', {async: true}),
-				new L.KML('./contours/200/N50E004.kml', {async: true}),
+		var c150 = L.featureGroup([
+				new L.KML('./contours/kml-1.5/N50W006.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N50W005.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N50W004.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N50W003.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N50W002.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N50W001.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N50E000.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N50E001.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N50E002.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N50E003.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N50E004.kml', {async: true}),
 
-				new L.KML('./contours/200/N51E000.kml', {async: true}),
-				new L.KML('./contours/200/N51E001.kml', {async: true}),
-				new L.KML('./contours/200/N51E002.kml', {async: true}),
-				new L.KML('./contours/200/N51E003.kml', {async: true}),
-				new L.KML('./contours/200/N51E004.kml', {async: true}),
-				new L.KML('./contours/200/N51E005.kml', {async: true})
+				new L.KML('./contours/kml-1.5/N51W006.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N51W005.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N51W004.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N51W003.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N51W001.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N51E000.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N51E001.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N51E002.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N51E003.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N51E004.kml', {async: true}),
+				new L.KML('./contours/kml-1.5/N51E005.kml', {async: true})
 			]).setStyle(seaStyle),
-			c150 = new L.KML('./contours/150.kml', {async: true, style: seaStyle}),
-			c100 = new L.KML('./contours/100.kml', {async: true, style: seaStyle}),
-			c050 = new L.KML('./contours/050.kml', {async: true, style: seaStyle}),
+			c050 = L.featureGroup([
+				new L.KML('./contours/kml-0.5/N50W006.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N50W005.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N50W004.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N50W003.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N50W002.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N50W001.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N50E000.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N50E001.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N50E002.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N50E003.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N50E004.kml', {async: true}),
+
+				new L.KML('./contours/kml-0.5/N51W006.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N51W005.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N51W004.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N51W003.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N51W001.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N51E000.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N51E001.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N51E002.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N51E003.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N51E004.kml', {async: true}),
+				new L.KML('./contours/kml-0.5/N51E005.kml', {async: true})
+			]).setStyle(seaStyle),
 			nothing = L.popup();
 
 		var contours = {
-			"5.0m": c500,
-			"2.0m": c200,
-			"1.5m possible by 2100": c150,
-			"1.0m likely": c100,
-			"0.5m inevitable": c050,
-			"0m today": nothing
+			"1.5m = possible by 2100": c150,
+			"0.5m = inevitable 2100": c050,
+			"0.0m = today": nothing
 		};
 
 		L.control.layers(contours).addTo(map);
