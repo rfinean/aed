@@ -18,14 +18,23 @@
 		}).addTo(map);
 		map.attributionControl.setPrefix(''); // remove 'Powered by Leaflet'
 
-		var //c500 = new L.KML('./contours/sep-poly.kml', {async: true}),
-			c150 = new L.KML('./contours/150.kml', {async: true}),
-			c100 = new L.KML('./contours/100.kml', {async: true}),
-			c050 = new L.KML('./contours/050.kml', {async: true}),
+		var seaStyle = {
+			stroke: false,
+			fillColor: '#88aaff',
+			fillOpacity: 0.5,
+		};
+
+		var c500 = L.featureGroup([
+				new L.KML('./contours/sep-poly.kml', {async: true}),
+				new L.KML('./contours/sep-poly2.kml', {async: true})
+			]).setStyle(seaStyle),
+			c150 = new L.KML('./contours/150.kml', {async: true, style: seaStyle}),
+			c100 = new L.KML('./contours/100.kml', {async: true, style: seaStyle}),
+			c050 = new L.KML('./contours/050.kml', {async: true, style: seaStyle}),
 			nothing = L.popup();
 
 		var contours = {
-			//"5.0m": c500,
+			"5.0m": c500,
 			"1.5m": c150,
 			"1.0m": c100,
 			"0.5m": c050,
