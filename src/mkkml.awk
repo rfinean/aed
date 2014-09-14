@@ -3,7 +3,8 @@
 
 function start_outer()
 {
-print "	</coordinates> </LinearRing> </innerBoundaryIs>"
+if (num_NA != 1)
+   print "	</coordinates> </LinearRing> </innerBoundaryIs>"
 print "<extrude>1</extrude>"
 print "<outerBoundaryIs> <LinearRing> <coordinates>"
 }
